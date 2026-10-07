@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Política de Privacidade — QRV Multas</title>
+
+    <meta name="description"
+          content="Política de Privacidade do aplicativo QRV Multas.">
+
+    <style>
+        :root {
+            --background: #0B0F0D;
+            --surface: #151A17;
+            --surface-hover: #1B211D;
+            --primary: #16A34A;
+            --primary-light: #22C55E;
+            --primary-dark: #0F3D25;
+            --text: #F2F5F3;
+            --text-secondary: #AAB5AE;
+            --border: #28332D;
+            --highlight: #102A1A;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Helvetica,
+                Arial,
+                sans-serif;
+            background: var(--background);
+            color: var(--text);
+            line-height: 1.7;
+        }
+
+        header {
+            position: relative;
+            overflow: hidden;
+            background:
+                radial-gradient(
+                    circle at 80% 20%,
+                    rgba(34, 197, 94, 0.15),
+                    transparent 35%
+                ),
+                linear-gradient(
+                    135deg,
+                    #07130C,
+                    #0F2B1A
+                );
+            border-bottom: 1px solid var(--border);
+            color: white;
+            padding: 65px 20px;
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 2px;
+            background:
+                linear-gradient(
+                    90deg,
+                    transparent,
+                    var(--primary),
+                    transparent
+                );
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .app-name {
+            display: inline-block;
+            color: var(--primary-light);
+            font-size: 14px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: clamp(32px, 6vw, 48px);
+            line-height: 1.15;
+            letter-spacing: -1px;
+        }
+
+        .updated {
+            margin-top: 18px;
+            color: var(--text-secondary);
+            font-size: 15px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 22px;
+            box-shadow:
+                0 8px 30px rgba(0, 0, 0, 0.20);
+        }
+
+        h2 {
+            color: var(--primary-light);
+            font-size: 23px;
+            margin-top: 0;
+            margin-bottom: 18px;
+            line-height: 1.3;
+        }
+
+        p {
+            margin: 12px 0;
+            color: var(--text-secondary);
+        }
+
+        strong {
+            color: var(--text);
+        }
+
+        ul {
+            padding-left: 25px;
+            color: var(--text-secondary);
+        }
+
+        li {
+            margin-bottom: 9px;
+        }
+
+        li::marker {
+            color: var(--primary);
+        }
+
+        .highlight {
+            background: var(--highlight);
+            border: 1px solid rgba(34, 197, 94, 0.18);
+            border-left: 4px solid var(--primary);
+            padding: 17px 19px;
+            border-radius: 8px;
+            margin: 22px 0;
+        }
+
+        .highlight p {
+            margin: 0;
+        }
+
+        .contact {
+            background: #101713;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .contact a {
+            color: var(--primary-light);
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .date {
+            color: var(--primary-light);
+            font-weight: 600;
+        }
+
+        footer {
+            text-align: center;
+            color: #68736D;
+            font-size: 14px;
+            padding: 35px 20px 50px;
+            border-top: 1px solid var(--border);
+        }
+
+        footer p {
+            color: #68736D;
+            margin: 6px 0;
+        }
+
+        @media (max-width: 650px) {
+            header {
+                padding: 48px 20px;
+            }
+
+            main {
+                margin-top: 25px;
+            }
+
+            .card {
+                padding: 23px;
+                border-radius: 13px;
+            }
+
+            h2 {
+                font-size: 21px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+
+        <div class="app-name">
+            QRV Multas
+        </div>
+
+        <h1>
+            Política de Privacidade
+        </h1>
+
+        <p class="updated">
+            Última atualização:
+            <span class="date">07 de outubro de 2026</span>
+        </p>
+
+    </div>
+</header>
+
+
+<main>
+
+    <!-- 1 -->
+
+    <section class="card">
+
+        <h2>1. Informações gerais</h2>
+
+        <p>
+            O <strong>QRV Multas</strong> é um aplicativo destinado a
+            auxiliar profissionais e estudantes na consulta e organização
+            de informações relacionadas ao Código de Trânsito Brasileiro
+            (CTB), ao Manual Brasileiro de Fiscalização de Trânsito (MBFT)
+            e a demais normas e informações públicas relacionadas ao
+            trânsito.
+        </p>
+
+        <p>
+            O aplicativo é desenvolvido e disponibilizado por
+            <strong>Stefano Ferrao</strong>.
+        </p>
+
+        <p>
+            Esta Política de Privacidade explica como o aplicativo trata
+            informações relacionadas aos seus usuários e aos serviços
+            utilizados para disponibilizar suas funcionalidades.
+        </p>
+
+        <div class="highlight">
+            <p>
+                <strong>Importante:</strong>
+                o QRV Multas não representa, não possui vínculo e não é
+                afiliado a qualquer entidade governamental, incluindo
+                SENATRAN, CONTRAN, PRF, órgãos estaduais de trânsito ou
+                prefeituras.
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- 2 -->
+
+    <section class="card">
+
+        <h2>2. Dados pessoais e informações coletadas</h2>
+
+        <p>
+            O QRV Multas foi desenvolvido para minimizar a coleta de
+            informações pessoais necessárias ao funcionamento do
+            aplicativo.
+        </p>
+
+        <p>
+            De acordo com as práticas declaradas atualmente na Google Play,
+            o aplicativo não declara a coleta de dados pessoais ou dados
+            compartilhados com terceiros.
+        </p>
+
+        <p>
+            As informações relacionadas às consultas realizadas no
+            aplicativo e aos conteúdos disponibilizados localmente são
+            utilizadas para fornecer as funcionalidades do próprio
+            aplicativo.
+        </p>
+
+        <p>
+            O QRV Multas não solicita, como requisito para suas
+            funcionalidades principais, informações como localização,
+            contatos, mensagens SMS, histórico de chamadas, dados de
+            saúde ou conteúdo de câmera e microfone.
+        </p>
+
+    </section>
+
+
+    <!-- 3 -->
+
+    <section class="card">
+
+        <h2>3. Autenticação com o Google</h2>
+
+        <p>
+            O QRV Multas disponibiliza autenticação por meio de uma conta
+            Google para permitir o acesso aos recursos que exigem
+            identificação do usuário.
+        </p>
+
+        <p>
+            A autenticação é realizada por meio dos mecanismos
+            disponibilizados pelo Google. O QRV Multas não solicita ao
+            usuário sua senha da conta Google.
+        </p>
+
+        <p>
+            As informações fornecidas pelo Google durante o processo de
+            autenticação são utilizadas exclusivamente para permitir o
+            funcionamento do mecanismo de autenticação e identificação
+            dentro do aplicativo.
+        </p>
+
+        <p>
+            O tratamento realizado pelo Google está sujeito também às
+            políticas de privacidade e aos termos de serviço do próprio
+            Google.
+        </p>
+
+    </section>
+
+
+    <!-- 4 -->
+
+    <section class="card">
+
+        <h2>4. Dados armazenados no dispositivo</h2>
+
+        <p>
+            O aplicativo possui recursos que permitem o funcionamento
+            offline após o primeiro acesso.
+        </p>
+
+        <p>
+            Para possibilitar esse funcionamento, determinados conteúdos
+            necessários ao funcionamento do aplicativo podem ser
+            armazenados localmente no dispositivo.
+        </p>
+
+        <p>
+            Esses conteúdos são utilizados para disponibilizar as
+            funcionalidades do QRV Multas e não são vendidos ou
+            comercializados.
+        </p>
+
+        <p>
+            A exclusão ou desinstalação do aplicativo pode remover os
+            dados armazenados localmente, de acordo com o comportamento
+            do sistema operacional Android.
+        </p>
+
+    </section>
+
+
+    <!-- 5 -->
+
+    <section class="card">
+
+        <h2>5. Compras e assinaturas</h2>
+
+        <p>
+            O QRV Multas oferece recursos pagos por meio de compras e
+            assinaturas disponibilizadas através do Google Play.
+        </p>
+
+        <p>
+            Os pagamentos são processados pela infraestrutura de
+            faturamento do Google Play. O QRV Multas não recebe nem
+            armazena diretamente os dados completos do cartão de crédito,
+            débito ou outros instrumentos de pagamento utilizados pelo
+            usuário.
+        </p>
+
+        <p>
+            Informações relacionadas à compra ou à situação da assinatura
+            podem ser utilizadas para verificar se o usuário possui
+            acesso aos recursos correspondentes ao plano adquirido.
+        </p>
+
+        <p>
+            O processamento dos pagamentos está sujeito aos termos e à
+            política de privacidade do Google Play.
+        </p>
+
+    </section>
+
+
+    <!-- 6 -->
+
+    <section class="card">
+
+        <h2>6. Compartilhamento de informações</h2>
+
+        <p>
+            O QRV Multas não vende, aluga ou comercializa informações
+            pessoais dos usuários.
+        </p>
+
+        <p>
+            De acordo com a declaração atualmente disponibilizada na
+            Google Play, o aplicativo não compartilha dados dos usuários
+            com terceiros.
+        </p>
+
+        <p>
+            Exceções poderão ocorrer quando o compartilhamento for
+            necessário para cumprir obrigação legal, ordem judicial ou
+            solicitação válida de autoridade competente, ou quando
+            necessário para a prestação de determinado serviço
+            expressamente solicitado pelo usuário.
+        </p>
+
+    </section>
+
+
+    <!-- 7 -->
+
+    <section class="card">
+
+        <h2>7. Serviços de terceiros</h2>
+
+        <p>
+            O aplicativo pode utilizar serviços fornecidos por terceiros
+            para viabilizar funcionalidades técnicas e a distribuição
+            do aplicativo.
+        </p>
+
+        <p>
+            Entre esses serviços encontram-se os serviços relacionados
+            ao Google Play e à autenticação Google.
+        </p>
+
+        <p>
+            Cada serviço de terceiros possui suas próprias políticas de
+            privacidade e termos de utilização.
+        </p>
+
+        <p>
+            O usuário deve consultar as políticas correspondentes
+            quando utilizar funcionalidades que dependam desses
+            serviços.
+        </p>
+
+    </section>
+
+
+    <!-- 8 -->
+
+    <section class="card">
+
+        <h2>8. Segurança das informações</h2>
+
+        <p>
+            São adotadas medidas técnicas e organizacionais razoáveis
+            para proteger as informações tratadas pelo aplicativo contra
+            acesso não autorizado, alteração, divulgação ou destruição
+            indevida.
+        </p>
+
+        <p>
+            As informações transmitidas entre o aplicativo e serviços
+            externos, quando aplicável, são protegidas por mecanismos
+            modernos de segurança e criptografia utilizados pelos
+            respectivos serviços.
+        </p>
+
+        <p>
+            Apesar das medidas de segurança adotadas, nenhum sistema
+            eletrônico pode garantir segurança absoluta.
+        </p>
+
+    </section>
+
+
+    <!-- 9 -->
+
+    <section class="card">
+
+        <h2>9. Retenção e exclusão de dados</h2>
+
+        <p>
+            O QRV Multas procura manter apenas as informações necessárias
+            para o funcionamento de suas funcionalidades e dos serviços
+            utilizados pelo usuário.
+        </p>
+
+        <p>
+            Dados armazenados exclusivamente no dispositivo poderão ser
+            removidos mediante exclusão dos dados do aplicativo ou
+            desinstalação, conforme os mecanismos disponibilizados pelo
+            Android.
+        </p>
+
+        <p>
+            Informações relacionadas à autenticação ou às compras
+            realizadas por meio do Google Play poderão estar sujeitas aos
+            períodos de retenção aplicáveis aos respectivos serviços.
+        </p>
+
+        <p>
+            Quando a legislação exigir a manutenção de determinadas
+            informações, elas poderão ser mantidas pelo período
+            necessário ao cumprimento da obrigação legal.
+        </p>
+
+    </section>
+
+
+    <!-- 10 -->
+
+    <section class="card">
+
+        <h2>10. Exclusão de conta</h2>
+
+        <p>
+            Caso uma conta de usuário seja criada ou mantida para
+            utilização do QRV Multas, o usuário poderá solicitar sua
+            exclusão entrando em contato pelo endereço de e-mail
+            informado nesta Política de Privacidade.
+        </p>
+
+        <p>
+            Após a confirmação da solicitação, serão adotadas medidas
+            razoáveis para excluir os dados associados à conta que não
+            precisem ser mantidos por obrigação legal ou por necessidade
+            legítima de prestação dos serviços.
+        </p>
+
+        <p>
+            A exclusão de uma conta não implica necessariamente o
+            cancelamento automático de uma assinatura realizada pelo
+            Google Play. O cancelamento de assinaturas deve ser realizado
+            pelos mecanismos disponibilizados pelo próprio Google Play.
+        </p>
+
+    </section>
+
+
+    <!-- 11 -->
+
+    <section class="card">
+
+        <h2>11. Privacidade de crianças e adolescentes</h2>
+
+        <p>
+            O QRV Multas não é direcionado especificamente a crianças.
+        </p>
+
+        <p>
+            O aplicativo não solicita intencionalmente informações
+            pessoais de crianças para finalidades incompatíveis com a
+            legislação aplicável.
+        </p>
+
+        <p>
+            Caso um responsável identifique uma situação envolvendo
+            tratamento indevido de dados de uma criança, poderá entrar
+            em contato pelo endereço indicado nesta política.
+        </p>
+
+    </section>
+
+
+    <!-- 12 -->
+
+    <section class="card">
+
+        <h2>12. Direitos do usuário</h2>
+
+        <p>
+            O usuário possui os direitos previstos na legislação
+            aplicável de proteção de dados, incluindo, quando aplicável,
+            os direitos previstos na Lei Geral de Proteção de Dados
+            Pessoais (LGPD).
+        </p>
+
+        <p>
+            Dependendo da situação, o usuário poderá solicitar:
+        </p>
+
+        <ul>
+
+            <li>
+                Confirmação da existência de tratamento de dados;
+            </li>
+
+            <li>
+                Acesso às informações pessoais tratadas;
+            </li>
+
+            <li>
+                Correção de informações incorretas ou incompletas;
+            </li>
+
+            <li>
+                Eliminação de dados, quando legalmente possível;
+            </li>
+
+            <li>
+                Informações sobre o tratamento realizado;
+            </li>
+
+            <li>
+                Revogação de consentimentos, quando aplicável.
+            </li>
+
+        </ul>
+
+        <p>
+            Solicitações poderão exigir confirmação da identidade do
+            solicitante e estarão sujeitas às limitações previstas na
+            legislação.
+        </p>
+
+    </section>
+
+
+    <!-- 13 -->
+
+    <section class="card">
+
+        <h2>13. Alterações nesta Política de Privacidade</h2>
+
+        <p>
+            Esta Política de Privacidade poderá ser atualizada
+            periodicamente para refletir alterações no aplicativo,
+            mudanças nos serviços utilizados ou alterações na legislação
+            aplicável.
+        </p>
+
+        <p>
+            A versão mais recente estará sempre disponível nesta página.
+        </p>
+
+        <p>
+            Recomendamos que os usuários consultem esta página
+            periodicamente para verificar eventuais alterações.
+        </p>
+
+    </section>
+
+
+    <!-- 14 -->
+
+    <section class="card">
+
+        <h2>14. Contato</h2>
+
+        <p>
+            Para dúvidas, solicitações relacionadas à privacidade ou
+            pedidos relacionados aos dados pessoais, entre em contato:
+        </p>
+
+        <div class="contact">
+
+            <p>
+                <strong>Aplicativo:</strong>
+                QRV Multas
+            </p>
+
+            <p>
+                <strong>Desenvolvedor:</strong>
+                Stefano Ferrao
+            </p>
+
+                </a>
+            </p>
+
+        </div>
+
+        <p>
+            As solicitações serão analisadas e respondidas dentro dos
+            prazos e condições aplicáveis à natureza da solicitação.
+        </p>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        © 2026 QRV Multas. Todos os direitos reservados.
+    </p>
+
+    <p>
+        Política de Privacidade — QRV Multas
+    </p>
+
+</footer>
+
+</body>
+</html>
